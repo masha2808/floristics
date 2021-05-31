@@ -1,0 +1,25 @@
+footer {
+  background-image: url('./../data/images/footer.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+footer .social-networks {
+  text-align: center;
+  padding-top: 100px
+}
+
+footer .social-networks h1 {
+  margin: 0;
+  font-size: 42px;
+  font-family: Monotype Corsiva;
+  line-height: 56px;
+  color: white;
+  text-shadow: 2px 4px 4px #40486D;
+}
+
+footer .social-networks img {
+  height: 64px;
+  width: 64px;
+  margin: 20px
+}

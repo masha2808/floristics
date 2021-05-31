@@ -1,0 +1,200 @@
+.bouquet-card {
+    display: inline-block;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #40486d77;
+}
+
+.bouquet-card figure {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.bouquet-card figcaption .btn-popup {
+    font-weight: bold;
+    background-color: inherit;
+    border: none;
+    font-size: 24px;
+    font-family: Monotype Corsiva;
+}
+
+.bouquet-card figcaption .btn-popup:hover {
+  background-color: inherit;
+  color: #40486D;
+}
+
+.bouquet-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.bouquets .container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bouquet-card .btn-buy {
+    background-color: #7585B6;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.bouquet-card button:hover {
+  background-color: #40486D;
+  cursor: pointer;
+}
+
+.bouquets {
+  background-color: #D5D1D2;
+}
+
+.bouquets .bouquets-title {
+  height: 100vh;
+  background-image: url('./../data/images/bouquets-title.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bouquets .bouquets-title svg{
+  height: 400px;
+  width: 400px;
+}
+
+.bouquets .bouquets-title circle {
+  fill: rgba(255, 255, 255, 0.75);
+  stroke: #7585B6;
+  stroke-width: 10;
+}
+
+.bouquets .bouquets-title .dotted {
+  stroke-dasharray: 1, 12.5;
+  stroke-linecap: round;
+}
+
+.bouquets .bouquets-title p {
+  font-family: Monotype Corsiva;
+  color: #40486D;
+  text-shadow: 3px 2px 2px #C2C0CD;
+  font-size: 48px;
+  margin-top: 120px;
+}
+
+.bouquets h1 {
+  font-family: Monotype Corsiva;
+  color: white;
+  text-shadow: 3px 2px 2px #40486D;
+  padding: 25px;
+  margin: 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+.bouquets h2 {
+  font-family: Monotype Corsiva;
+  color: #40486D;
+  text-shadow: 3px 2px 2px #B7B4C5;
+  padding: 25px;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 48px;
+  text-align: center;
+}
+
+.bouquets .sorting-filters {
+  border-top: 5px dotted white;
+  border-bottom: 5px dotted white;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.bouquets .sorting-filters fieldset {
+  display: inline;
+  font-size: 18px;
+  height: 40px;
+  border: none;
+  margin: 15px
+}
+
+.bouquets .sorting-filters fieldset legend {
+  font-weight: bold;
+  color: #40486D;
+}
+
+.bouquets .sorting-filters .number {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.bouquets .sorting-filters .arrow {
+  background-color: inherit;
+  border: none;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+.bouquets .sorting-filters .arrow:hover {
+  cursor: pointer;
+}
+
+.bouquets .pagination {
+  text-align: center;
+  margin: 40px;
+}
+
+.bouquets .pagination .btn-pagination {
+  font-size: 24px;
+  padding: 5px;
+  width: 40px;
+  margin: 5px;
+  color: white;
+  background-color: #7585B6;
+  border: none;
+}
+
+.bouquets .pagination .current {
+  font-size: 24px;
+  padding: 5px;
+  width: 40px;
+  margin: 5px;
+  color: white;
+  background-color: #40486D;
+  border: none;
+}
+
+.bouquets .pagination .btn-pagination:hover {
+  background-color: #40486D;
+  cursor: pointer;
+}
+
+.bouquets .sorting-filters .search .btn-search {
+  background-color: inherit;
+  background-image: url("https://img-premium.flaticon.com/png/512/49/49116.png?token=exp=1622413879~hmac=9bb9b281e216fe360d3369195167ca9d");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border: none;
+  margin-left: 5px;
+  margin-bottom: -2px;
+}
+
+.bouquets .sorting-filters .search .btn-search:hover {
+  cursor: pointer;
+}

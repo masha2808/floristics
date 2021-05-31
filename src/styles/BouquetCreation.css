@@ -1,0 +1,87 @@
+.bouquet-creation-title {
+  height: 100vh;
+  background-image: url('./../data/images/creation-bouquet.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bouquet-creation-title p {
+  margin: 0;
+  font-family: Monotype Corsiva;
+  color: white;
+  text-shadow: 3px 2px 2px #40486D;
+  padding: 25px;
+  font-size: 60px;
+}
+
+.creation {
+  background-color: #D5D1D2;
+}
+
+.creation form {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.creation .card {
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 2px #40486d77;
+  background-color: white;
+}
+
+.creation .card figure {
+  margin: 0;
+}
+
+.creation .card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.creation .list {
+  display: flex;
+  flex-direction: row;
+}
+
+.creation .btn-buy {
+  background-color: #7585B6;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.creation .btn-buy:hover {
+  background-color: #40486D;
+  cursor: pointer;
+}
+
+.creation fieldset {
+  width: fit-content;
+  border: none;
+} 
+
+.creation .price {
+  font-size: 24px;
+}
+
+.creation legend {
+  font-family: Monotype Corsiva;
+  color: white;
+  text-shadow: 3px 2px 2px #40486D;
+  padding: 25px;
+  margin: 0;
+  font-size: 48px;
+  text-align: center;
+}

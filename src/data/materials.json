@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Коробка для квітів",
+    "price": 100,
+    "image": "https://www.floramax.com.ua/image/cache/catalog/product/29912/korobka-dlya-tsvetov-rozovaya-5-sht-tsena-za-1-sht-41552-1-660x660.jpg.webp"
+  },
+  {
+    "id": 2,
+    "name": "Кошик для квітів",
+    "price": 200,
+    "image": "https://cs5.livemaster.ru/storage/3d/17/cbd3d9e441ace2118022f21d290q--dlya-doma-i-interera-korzina-dlya-tsvetov.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Пакувальна плівка",
+    "price": 10,
+    "image": "https://images.ua.prom.st/1072135507_w640_h640_plenka-prozrachnaya-dlya.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Пакувальний папір",
+    "price": 25,
+    "image": "https://images.ua.prom.st/2176270855_w600_h600_2176270855.jpg"
+  }
+]

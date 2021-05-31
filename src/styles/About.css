@@ -1,0 +1,59 @@
+.about-title {
+  background-image: url('./../data/images/about.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title h1 {
+  font-family: Vivaldi;
+  color: #40486D;
+  padding: 50px;
+  margin: 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+.about-title .info {
+  width: 70%;
+  padding: 70px;
+  font-family: Monotype Corsiva;
+  font-size: 24px;
+}
+
+.about-title .info h2 {
+  color: #40486D;
+}
+
+.about .gallery {
+  background-color: #D5D1D2;
+}
+
+.about .gallery h1 {
+  font-family: Monotype Corsiva;
+  color: white;
+  text-shadow: 3px 2px 2px #40486D;
+  padding: 25px;
+  margin: 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+.about .gallery .container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.about .gallery img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  box-shadow: 2px 2px 2px 2px #40486d77;
+}

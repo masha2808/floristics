@@ -1,0 +1,61 @@
+.flowers {
+  background-color: #B7B4C5;
+}
+
+.flowers .flowers-title {
+  height: 100vh;
+  background-image: url('./../data/images/flowers-title.jpg');
+  background-size: cover;
+}
+
+.flowers .flowers-title .title {
+  width: 350px;
+  margin-left: 30vh;
+  padding-top: 20vh;
+}
+
+.flowers .flowers-title .title p {
+  margin: 0;
+  font-size: 42px;
+  font-family: Monotype Corsiva;
+  line-height: 56px;
+  color: white;
+  text-shadow: 2px 4px 4px #40486D;
+}
+
+.flowers .flower-card {
+  background-color: white;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px #40486d77;
+}
+
+.flowers .flower-card img {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.flowers .flowers-list {
+  margin-top: 40px;
+}
+
+.flowers .container {
+  display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+.flowers .flower-card figure {
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}

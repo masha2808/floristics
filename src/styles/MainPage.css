@@ -1,0 +1,70 @@
+.main-page .slider-title {
+  height: 100vh;
+  width: 100%;
+  background-color: #B7B4C5;
+}
+
+.main-page .slider-title h1 {
+  height: 20vh;
+  margin: 0;
+  text-align: center;
+  font-family: Monotype Corsiva;
+  color: #40486D;
+  padding-top: 20px;
+  font-size: 48px;
+  text-shadow: 3px 2px 2px #C2C0CD;
+}
+
+.main-page .slider {
+  height: 80vh;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.main-page .slider img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.main-page .link-background {
+  background-color: #7585B6;
+  padding: 20px;
+  margin: 20px;
+}
+
+.main-page .link-background .link {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: Monotype Corsiva;
+}
+
+.main-page .link-background:hover {
+  background-color: #40486D;
+  cursor: pointer;
+}
+
+.store-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.store {
+  height: 100vh;
+  background-image: url('./../data/images/store.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.store p {
+  margin: 20px;
+  font-family: Monotype Corsiva;
+  color: white;
+  text-shadow: 3px 2px 2px #40486D;
+  padding: 25px;
+  font-size: 48px;
+}

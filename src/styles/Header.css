@@ -1,0 +1,92 @@
+.App-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #7585B6;
+  font-size: 24px;
+  color: white;
+  max-height: fit-content;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.App-header h1 {
+  display: inline;
+  font-weight: normal;
+  font-size: 30px;
+  font-family: Vivaldi;
+  margin: 0;
+  line-height: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav p {
+  margin: 0;
+  line-height: 60px;
+}
+
+nav {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-family: Monotype Corsiva;
+  }
+nav li {
+  list-style: none;
+  float: left;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  border-left: 1px solid white;
+  }
+
+  nav ul {
+    margin:0;
+  }
+nav li ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  }
+nav li ul li{
+  float: none;
+  margin: 0;
+  width: 200px;
+  text-align: center;
+  background: #7585b6d7;
+  font-size: 22px;
+  border-left: none;
+  }
+nav li a{
+  display: block;
+  width: 200px;
+  color:    white;
+  text-decoration: none;
+  line-height: 60px;
+  }
+
+nav li:hover ul{
+    display: block;
+    }
+nav li:hover{
+    background: #40486dd8;
+    }
+nav li ul li ul{
+left:200px;
+top: 0;
+}
+nav li ul li ul li {
+  display: none;
+}
+nav li ul li:hover ul li {
+  display: block;
+}

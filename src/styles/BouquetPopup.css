@@ -1,0 +1,65 @@
+.popup-background {
+  background-color: rgba(255, 255, 255, 0.747);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 2;
+}
+
+.bouquet-popup {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #40486D;
+  background-color: white;
+  box-shadow: 0 0 2px 2px #40486d77,
+  0 0 4px 4px #c2c0cd81;
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  overflow-y: auto;
+}
+
+.bouquet-popup .bouquet-data {
+  margin: 20px;
+  width: 350px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.bouquet-popup img {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+}
+
+.bouquet-popup h1 {
+  margin: 15px;
+  font-size: 40px;
+  display: inline;
+  color: #40486D;
+  font-family: Monotype Corsiva;
+}
+
+.bouquet-popup p {
+  margin: 5px;
+}
+
+.bouquet-popup ul {
+  margin: 5px;
+}
+
+.bouquet-popup .btn-close {
+  display: inline;
+  background-color: inherit;
+  border: none;
+  font-size: 30px;
+  float: right;
+  padding: 0;
+}
+
+.bouquet-popup .btn-close:hover {
+  background-color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
